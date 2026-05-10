@@ -212,6 +212,20 @@ tempCodeRunnerFile.py
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+
+#pycache/
+pycache/
+*.pyc
+*.ipynb_checkpoints/
+data/raw/*
+data/processed/*
+data/synthetic/*
+models/checkpoints/
+*.log
+.env
+venv/
+.DS_Store
 __marimo__/
 
 # Streamlit
