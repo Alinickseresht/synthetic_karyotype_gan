@@ -15,7 +15,7 @@ Download and place in data/raw/ (or use the automatic script).
 
 ## :rocket: Quick Start
 `bash
-git clone https://github.com/YOUR_USERNAME/synthetic-karyotype-gan
+git clone https://github.com/Alinickseresht/synthetic-karyotype-gan
 cd synthetic-karyotype-gan
 pip install -r requirements.txt
 python scripts/download_data.sh   # optional
