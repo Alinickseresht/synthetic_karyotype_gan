@@ -1,15 +1,16 @@
+# Configuration file for training Conditional GAN
 
-# (example config)
 data:
   raw_path: "data/raw/chromosomes"
   processed_path: "data/processed"
   image_size: 128
   batch_size: 32
+  num_workers: 4
 
 model:
-  type: "stylegan2"  # or "conditional_gan"
+  type: "stylegan2"          # or "conditional_gan"
   latent_dim: 512
-  n_classes: 24      # 24 classes of human chromosomes
+  n_classes: 24              # number of chromosome classes (1-24) or anomalies
 
 training:
   epochs: 100
