@@ -1,1 +1,15 @@
-
+torch>=1.12
+torchvision
+opencv-python
+numpy
+pandas
+matplotlib
+seaborn
+scikit-image
+pillow
+pyyaml
+tqdm
+# For StyleGAN2 implementations, e.g.:
+git+https://github.com/rosinality/stylegan2-pytorch
+# or if you prefer a simpler version:
+# stylegan2-pytorch
